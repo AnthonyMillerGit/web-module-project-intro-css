@@ -1,0 +1,87 @@
+
+* {
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+  max-width: 100%;
+  /* border: 1px solid grey; */
+
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+.container{
+  margin:5%;
+  font-size: 2rem;
+}
+nav{
+    text-align:center;
+}
+a{
+  text-decoration: none;
+}
+nav a {
+  display: inline-block;
+  margin: 3%;
+  font-size: 2rem;
+  padding: 2%;
+  text-align: center;
+  color: white;
+  width:15%;
+  border-radius:25%;
+}
+a.plan {
+  background-color: #ff764e;
+  /* width: 100%; */
+}
+a.learn {
+  background-color: #5ed3eb;
+}
+a.get {
+  background-color: #ffcd69;
+}
+.headimage {
+  width: 25%;
+  display: inline-block;
+}
+.headimage img {
+  width: 50%;
+  border-radius: 50%;
+}
+.firstsec h1 {
+  font-size: 4rem;
+  font-family: 'papyrus', Times, fantasy;
+}
+div{
+    display:inline-block;
+    text-align:center;
+}
+section {
+    text-align:center;
+}
+.fire{
+  width:10%;
+}
+.truck{
+  width:10%;
+}
+.firstsec{
+  /* text-align:center; */
+  margin: 20px;
+}
+.secondsec{
+  background-color:#DDB9A3;
+}
+.thirdsec{
+  /* text-align: center; */
+  width:50%;
+  display: inline-block;
+}
+.fourthsec{
+  width:50%;
+  display:inline-block;
+}
